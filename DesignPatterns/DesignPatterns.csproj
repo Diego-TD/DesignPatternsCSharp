@@ -9,7 +9,6 @@
 
     <ItemGroup>
       <Folder Include="BehavioralDP\" />
-      <Folder Include="CreationalDP\AbstractFactory\" />
       <Folder Include="CreationalDP\Builder\" />
       <Folder Include="CreationalDP\Prototype\" />
       <Folder Include="StructuralDP\" />

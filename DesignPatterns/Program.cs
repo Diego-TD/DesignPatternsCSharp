@@ -1,4 +1,5 @@
-﻿using DesignPatterns.CreationalDP.Factory;
+﻿using DesignPatterns.CreationalDP.AbstractFactory;
+using DesignPatterns.CreationalDP.Factory;
 
 bool flag = true;
 while (flag)
@@ -62,10 +63,10 @@ while (flag)
        {
            Factory.FactoryExample();
        } break;
-      
+
        case 2:
        {
-           Console.WriteLine("Abstract factory method:\n");
+           AbstractFactory.AbstractFactoryExample();
        } break;
        case 3:
        {
