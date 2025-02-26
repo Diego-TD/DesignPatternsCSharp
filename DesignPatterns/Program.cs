@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.CreationalDP.AbstractFactory;
+using DesignPatterns.CreationalDP.Builder;
 using DesignPatterns.CreationalDP.Factory;
 
 bool flag = true;
@@ -59,94 +60,27 @@ while (flag)
    switch (userInput)
    {  
        case 0: flag = false; break;
-       case 1:
-       {
-           Factory.FactoryExample();
-       } break;
-
-       case 2:
-       {
-           AbstractFactory.AbstractFactoryExample();
-       } break;
-       case 3:
-       {
-           Console.WriteLine("Builder:\n");
-       } break;
-       case 4:
-       {
-           Console.WriteLine("Prototype (in progress)\n");
-       } break;
-       case 5:
-       {
-           Console.WriteLine("Singleton (in progress)\n");
-       } break;
-       case 6:
-       {
-           Console.WriteLine("Adapter:\n");
-       } break;
-       case 7:
-       {
-           Console.WriteLine("Bridge (in progress)\n");
-       } break;
-       case 8:
-       {
-           Console.WriteLine("Composite (in progress)\n");
-       } break;
-       case 9:
-       {
-           Console.WriteLine("Decorator (in progress)\n");
-       } break;
-       case 10:
-       {
-           Console.WriteLine("Facade:\n");
-       } break;
-       case 11:
-       {
-           Console.WriteLine("Flyweight (in progress):\n");
-       } break;
-       case 12:
-       {
-           Console.WriteLine("Proxy:\n");
-       } break;
-       case 13:
-       {
-           Console.WriteLine("Chain of responsibility  (in progress)\n");
-       } break;
-       case 14:
-       {
-           Console.WriteLine("Command:\n");
-       } break;
-       case 15:
-       {
-           Console.WriteLine("Iterator (in progress)\n");
-       } break;
-       case 16:
-       {
-           Console.WriteLine("Mediator (in progress)\n");
-       } break;
-       case 17:
-       {
-           Console.WriteLine("Memento (in progress)\n");
-       } break;
-       case 18:
-       {
-           Console.WriteLine("Observer:\n");
-       } break;
-       case 19:
-       {
-           Console.WriteLine("State (in progress)\n");
-       } break;
-       case 20:
-       {
-           Console.WriteLine("Strategy:\n");
-       } break;
-       case 21:
-       {
-           Console.WriteLine("Template method (in progress)\n");
-       } break;
-       case 22:
-       {
-           Console.WriteLine("Visitor (in progress)\n");
-       } break;
+       case 1: Factory.FactoryExample(); break;
+       case 2: AbstractFactory.AbstractFactoryExample(); break;
+       case 3: BuilderExample.BuilderExampleMain(); break;
+       case 4: Console.WriteLine("Prototype (in progress)\n"); break;
+       case 5: Console.WriteLine("Singleton (in progress)\n"); break;
+       case 6: Console.WriteLine("Adapter:\n"); break;
+       case 7: Console.WriteLine("Bridge (in progress)\n"); break;
+       case 8: Console.WriteLine("Composite (in progress)\n"); break;
+       case 9: Console.WriteLine("Decorator (in progress)\n"); break;
+       case 10: Console.WriteLine("Facade:\n"); break;
+       case 11: Console.WriteLine("Flyweight (in progress):\n"); break;
+       case 12: Console.WriteLine("Proxy:\n"); break;
+       case 13: Console.WriteLine("Chain of responsibility  (in progress)\n"); break;
+       case 14: Console.WriteLine("Command:\n"); break;
+       case 15: Console.WriteLine("Iterator (in progress)\n"); break;
+       case 16: Console.WriteLine("Mediator (in progress)\n"); break;
+       case 17: Console.WriteLine("Memento (in progress)\n"); break;
+       case 18: Console.WriteLine("Observer:\n"); break;
+       case 19: Console.WriteLine("State (in progress)\n"); break;
+       case 20: Console.WriteLine("Strategy:\n"); break;
+       case 21: Console.WriteLine("Template method (in progress)\n"); break;
+       case 22: Console.WriteLine("Visitor (in progress)\n"); break;
    }
 }
