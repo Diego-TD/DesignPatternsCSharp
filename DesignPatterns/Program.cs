@@ -3,6 +3,7 @@ using DesignPatterns.CreationalDP.Builder;
 using DesignPatterns.CreationalDP.Factory;
 using DesignPatterns.StructuralDP;
 using DesignPatterns.StructuralDP.Bridge;
+using DesignPatterns.StructuralDP.Facade;
 
 bool flag = true;
 while (flag)
@@ -71,7 +72,7 @@ while (flag)
        case 7: BridgeExample.BridgeExampleMain(); break;
        case 8: Console.WriteLine("Composite (in progress)\n"); break;
        case 9: Console.WriteLine("Decorator (in progress)\n"); break;
-       case 10: Console.WriteLine("Facade:\n"); break;
+       case 10: FacadeClient.FacadeMain(); break;
        case 11: Console.WriteLine("Flyweight (in progress):\n"); break;
        case 12: Console.WriteLine("Proxy:\n"); break;
        case 13: Console.WriteLine("Chain of responsibility  (in progress)\n"); break;
