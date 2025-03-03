@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.CreationalDP.AbstractFactory;
 using DesignPatterns.CreationalDP.Builder;
 using DesignPatterns.CreationalDP.Factory;
+using DesignPatterns.StructuralDP;
 
 bool flag = true;
 while (flag)
@@ -65,7 +66,7 @@ while (flag)
        case 3: BuilderExample.BuilderExampleMain(); break;
        case 4: Console.WriteLine("Prototype (in progress)\n"); break;
        case 5: Console.WriteLine("Singleton (in progress)\n"); break;
-       case 6: Console.WriteLine("Adapter:\n"); break;
+       case 6: AdapterExample.AdapterExampleMain(); break;
        case 7: Console.WriteLine("Bridge (in progress)\n"); break;
        case 8: Console.WriteLine("Composite (in progress)\n"); break;
        case 9: Console.WriteLine("Decorator (in progress)\n"); break;

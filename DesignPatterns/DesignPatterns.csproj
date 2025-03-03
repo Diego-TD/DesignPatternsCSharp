@@ -10,7 +10,6 @@
     <ItemGroup>
       <Folder Include="BehavioralDP\" />
       <Folder Include="CreationalDP\Prototype\" />
-      <Folder Include="StructuralDP\" />
     </ItemGroup>
 
 </Project>
