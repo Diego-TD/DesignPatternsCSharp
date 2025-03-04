@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.BehavioralDP.Command;
 using DesignPatterns.BehavioralDP.Observer;
+using DesignPatterns.BehavioralDP.Strategy;
 using DesignPatterns.CreationalDP.AbstractFactory;
 using DesignPatterns.CreationalDP.Builder;
 using DesignPatterns.CreationalDP.Factory;
@@ -85,7 +86,7 @@ while (flag)
        case 17: Console.WriteLine("Memento (in progress)\n"); break;
        case 18: ObserverExample.ObserverExampleMain(); break;
        case 19: Console.WriteLine("State (in progress)\n"); break;
-       case 20: Console.WriteLine("Strategy:\n"); break;
+       case 20: StrategyExample.StrategyExampleMain(); break;
        case 21: Console.WriteLine("Template method (in progress)\n"); break;
        case 22: Console.WriteLine("Visitor (in progress)\n"); break;
    }
