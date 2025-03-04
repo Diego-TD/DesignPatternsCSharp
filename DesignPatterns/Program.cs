@@ -1,4 +1,5 @@
-﻿using DesignPatterns.CreationalDP.AbstractFactory;
+﻿using DesignPatterns.BehavioralDP.Command;
+using DesignPatterns.CreationalDP.AbstractFactory;
 using DesignPatterns.CreationalDP.Builder;
 using DesignPatterns.CreationalDP.Factory;
 using DesignPatterns.StructuralDP;
@@ -77,7 +78,7 @@ while (flag)
        case 11: Console.WriteLine("Flyweight (in progress):\n"); break;
        case 12: ProxyExample.ProxyExampleMain(); break;
        case 13: Console.WriteLine("Chain of responsibility  (in progress)\n"); break;
-       case 14: Console.WriteLine("Command:\n"); break;
+       case 14: CommandExample.CommandExampleMain(); break;
        case 15: Console.WriteLine("Iterator (in progress)\n"); break;
        case 16: Console.WriteLine("Mediator (in progress)\n"); break;
        case 17: Console.WriteLine("Memento (in progress)\n"); break;

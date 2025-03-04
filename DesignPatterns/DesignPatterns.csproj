@@ -8,7 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="BehavioralDP\" />
       <Folder Include="CreationalDP\Prototype\" />
     </ItemGroup>
 
